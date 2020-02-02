@@ -1,0 +1,72 @@
+.row {
+  height: 100% !important;
+  width: auto;
+
+  margin: 0 auto;
+}
+
+.start {
+  height: 100% !important;
+  width: auto;
+  overflow: hidden;
+
+}
+
+.col-12 {
+  height: 100% !important;
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.to-center {
+  margin-top: 30%;
+}
+
+.poly {
+  background-image: url(../../../assets/images/hireblack.png);
+  background-size: cover;
+  height: 100% !important;
+  overflow: hidden;;
+  margin: 0 auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+.center {
+  margin-top: 50%;
+}
+
+.askbox {
+  height: 100%;
+
+  opacity: 1;
+}
+.whitepaper{
+  background-color: black;
+  opacity: 0.5;
+height: 100%;
+}
+.whitepaper .solid {
+  opacity: 1!important;
+}
+.whitepaper *{
+  opacity: 1;
+}
+.whitepaper span{
+   opacity:0.3;
+ }
+.solid {
+  opacity:1 !important;
+}
+.tocenter{
+  margin: 0;
+  position: absolute;
+  top:40%;
+
+ left:20%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

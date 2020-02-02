@@ -1,0 +1,51 @@
+
+  <div class="row wrapper">
+    <div class="col-1 text-center sidebar">
+      <div class="row menu">
+        <div class="col-12" (click)="setHome()">
+          <img class="img-fluid" [@rotatedState]='state' src="../../../assets/images/exit.png">
+        </div>
+
+
+      </div>
+      <div class="row menu" (click)="setHire()">
+        <div class="col-12">
+          <img class="img-fluid" [@rotatedState]='state' src="../../../assets/images/exit.png">
+        </div>
+
+
+      </div>
+      <div class="row menu"(click)="setChat()">
+        <div class="col-12">
+          <img class="img-fluid" [@rotatedState]='state' src="../../../assets/images/exit.png">
+        </div>
+
+
+      </div>
+      <div class="row menu text-center">
+        <div class="col-12">
+          <img class="img-fluid" [@rotatedState]='state' src="../../../assets/images/exit.png">
+        </div>
+      </div>
+      <div class="row menu">
+
+        <div class="col-12">
+          <img class="img-fluid" [@rotatedState]='state' src="../../../assets/images/exit.png">
+        </div>
+      </div>
+      <div class="row menu">
+        <div class="col-12">
+          <img class="img-fluid" [@rotatedState]='state' src="../../../assets/images/exit.png">
+        </div>
+      </div>
+    </div>
+    <div class="col-11 w-100 full">
+      <div *ngIf="welcome" class="row green">
+        <app-profile></app-profile>
+      </div>
+      <app-profile *ngIf="contentSwapper==='profile'"></app-profile>
+      <app-hire *ngIf="contentSwapper==='hire'"></app-hire>
+    </div>
+
+  </div>
+
